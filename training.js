@@ -130,14 +130,13 @@ arrOfArrs[1][arrOfArrs.length];
 // Create an array to hold your top five choices of something (music, books, movies, whatever).
 // For each choice, log to the screen a string like: "My #1 choice is blue."
 // Bonus: Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
-const favMovies = ['Fight Club', 'Lord of The Rings Trilogy', 'Mr.Nobody', 'Eternal sunshine of the spotless mind', ''];
+const favMovies = ['Fight Club', 'Lord of The Rings Trilogy', 'Mr.Nobody', 'Eternal sunshine of the spotless mind', 'Before Sunrise'];
 const suffix = ['st', 'nd', 'rd', 'th', 'th'];
-for(var i=0; i<favColors.length; i++){
-    favColors[i] = `My #${i+1} choice is ${favColors[i]}.`
-    favColors[i] = `BONUS: My ${i+1}${suffix[i]} choice is ${favColors[i]}.`
-}
+for(var i=0; i<favMovies.length; i++){
+    favMovies[i] = `My ${i+1}${suffix[i]} choice is ${favMovies[i]}.`
+    }
 
-
+favMovies;
 
 
 
